@@ -1,0 +1,13 @@
+document.getElementById("messageForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    var message = document.getElementById("message").value;
+    if (message.trim() !== "") {
+        var messageElement = document.createElement("div");
+        messageElement.classList.add("message");
+        messageElement.textContent = message;
+        document.getElementById("messageList").appendChild(messageElement);
+        document.getElementById("message").value = "";
+    } else {
+        alert("Por favor, escribe un mensaje.");
+    }
+});

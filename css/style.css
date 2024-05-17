@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+article{
+    background-color: rgb(255, 255, 255);
+}
+#menu {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    background-color: rgb(34, 233, 223);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logo {
+    margin-right: 20px; /* Espacio entre el logo y los elementos del menú */
+}
+ul {
+    list-style-type: none; /* Quita los estilos de lista predeterminados */
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline; /* Muestra los elementos del menú en línea */
+    margin-right: 10px; /* Espacio entre los elementos del menú */
+}
+
+a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: rgb(116, 11, 11); /* Color del texto del enlace */
+}
+a:hover {
+    color: blue; /* Color del texto del enlace al pasar el mouse por encima */
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    color: #000000;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #f78d14;
+    border-bottom: 3px solid #46e468;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+footer p, footer a {
+    color: #fff;
+    margin: 5px 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(218, 16, 16);
+}
+label {
+    margin: 0.4rem 0;
+}
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.message {
+    background-color: #f7f6f6;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.justified-text {
+    text-align: justify;
+    color: #0a0808;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 20px; /* Espacio dentro de las celdas */
+    border: 1px solid #ccc; /* Línea divisoria entre celdas */
+    vertical-align: top; /* Alineación vertical de las celdas */
+}
+
+td a {
+    display: block; /* Para asegurar que el padding se aplique a todo el contenido del enlace */
+}
+
+.justified-text td {
+    text-align: justify; /* Justificar el texto dentro de las celdas */
+}
+
+
+
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+section{
+    display: flex;
+
+   
+}
+
